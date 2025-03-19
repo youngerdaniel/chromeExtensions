@@ -28,7 +28,7 @@ This extension is ideal for:
 ## How It Works
 
 1. **Install the Extension**: Add the extension to your Chrome browser.
-2. **Open the cPanel DNS Zone Editor**: Navigate to the DNS Zone Editor page in your cPanel account.
+2. **Open the cPanel DNS Zone Editor**: Navigate to the DNS Zone Editor page also know as Zone Records for {specific domain} in your cPanel account.
 3. **Launch the Extension**: Click on the extension icon in the Chrome toolbar to open the popup.
 4. **Select TTL Setting**: Choose whether to use the original TTL values or override them with a custom TTL.
 5. **Export Records**: Click the "Export to BIND Format" button. The extension will extract the DNS records and download them as a `.txt` file.
@@ -69,7 +69,7 @@ The extension requires the following permissions:
 
 ## How to Use
 
-1. Navigate to the **DNS Zone Editor** page in your cPanel account.
+1. Navigate to the **DNS Zone Editor** page in your cPanel account. You must be on the specific page for the domain you are working on or else this will not work.
 2. Click the extension icon in the Chrome toolbar to open the popup.
 3. Select a **TTL Setting** from the dropdown menu:
    - **Use Original TTL**: Retains the TTL values from the DNS records.
